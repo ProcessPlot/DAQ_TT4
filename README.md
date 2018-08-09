@@ -1,2 +1,2 @@
 # DAQ_TT4
-16-bit, 4 channel data acquisition system using arduino spi interface
+A simple, yet powerful data acquisition circuit that is basically an arduino compatible shield to read a 16-bit [ADC_MAX1300](https://datasheets.maximintegrated.com/en/ds/MAX1300-MAX1301.pdf) through the SPI interface. The board is enlarged to fit into an aluminum enclosure and use BNC input jacks.
