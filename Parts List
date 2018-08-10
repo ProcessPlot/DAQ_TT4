@@ -1,0 +1,131 @@
+Partlist
+
+Exported from arduino_Uno_RevG-MU.sch at 7/8/2018 11:46 PM
+
+EAGLE Version 8.4.1 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                         Device                           Package                  Library           Sheet
+
+AD                                     PINHD-1X6                        1X06                     pinhead           1
+C1       100n                          C-EU0603-RND                     C0603-ROUND              SmartPrj          1
+C2       100n                          C-EU0603-RND                     C0603-ROUND              SmartPrj          1
+C3       1u                            C-EU0603-RND                     C0603-ROUND              SmartPrj          1
+C4       100n                          C-EU0603-RND                     C0603-ROUND              SmartPrj          1
+C5       100n                          C-EU0603-RND                     C0603-ROUND              SmartPrj          1
+C6       100n                          C-EU0603-RND                     C0603-ROUND              SmartPrj          1
+C7       100n                          C-EU0603-RND                     C0603-ROUND              SmartPrj          1
+C8       1u                            C-EU0603-RND                     C0603-ROUND              SmartPrj          1
+C9       22p                           C-EU0603-RND                     C0603-ROUND              SmartPrj          1
+C10      0.1uF                         CAPACITOR0.1U_100V               0805_SMD                 LS_ELECTRIC       1
+C11      22p                           C-EU0603-RND                     C0603-ROUND              SmartPrj          1
+C12      0.1uF                         CAPACITOR0.1U_100V               0805_SMD                 LS_ELECTRIC       1
+C13      0.1uF                         CAPACITOR0.1U_100V               0805_SMD                 LS_ELECTRIC       1
+C14      0.1uF                         CAPACITOR0.1U_100V               0805_SMD                 LS_ELECTRIC       1
+C15      0.1uF                         CAPACITOR0.1U_100V               0805_SMD                 LS_ELECTRIC       1
+C16      0.1uF                         CAPACITOR0.1U_100V               0805_SMD                 LS_ELECTRIC       1
+C17      0.1uF                         CAPACITOR0.1U_100V               0805_SMD                 LS_ELECTRIC       1
+C18      0.1uF                         CAPACITOR0.1U_100V               0805_SMD                 LS_ELECTRIC       1
+C19      0.1uF                         CAPACITOR0.1U_100V               0805_SMD                 LS_ELECTRIC       1
+C20      0.1uF                         CAPACITOR0.1U_100V               0805_SMD                 LS_ELECTRIC       1
+C21      0.1uF                         CAPACITOR0.1U_100V               0805_SMD                 LS_ELECTRIC       1
+C22      2.2n                          CAPACITOR2.2N_0805               0805_SMD                 LS_ELECTRIC       1
+C29      0.1uF                         CAPACITOR0.1U_100V               0805_SMD                 LS_ELECTRIC       1
+C30      0.1uF                         CAPACITOR0.1U_100V               0805_SMD                 LS_ELECTRIC       1
+D1       M7                            DIODE-SMB                        SMB                      diode             1
+F1       500mA                         L-EUL1812                        L1812                    rcl               1
+GROUND                                 SJ                               SJ                       jumper            1
+IC1      MC33269ST-5.0T3               MC33269ST-3.3T3                  SOT223                   linear            1
+IC2      MC33269D-5.0                  MC33269D-5.0                     DPACK                    linear            1
+IC3      ADC                           ADC                              LS_ELECTRIC_HTSSOP24-PAD LS_ELECTRIC       1
+IC4      ADC                           ADC                              LS_ELECTRIC_HTSSOP24-PAD LS_ELECTRIC       1
+IC5      ATMEGA328P-20MU               MEGA8-MI                         MLF32                    idii              1
+ICSP     ICSP                          PINHD-2X3                        2X03                     pinhead           1
+ICSP1    ICSP                          PINHD-2X3                        2X03                     pinhead           1
+IOH                                    PINHD-1X8                        1X08                     pinhead           1
+IOL                                    PINHD-1X8                        1X08                     pinhead           1
+JP2                                    PINHD-2X2                        2X02                     pinhead           1
+L        YELLOW                        LEDCHIP-LED0805                  CHIP-LED0805             led               1
+L1       BLM21                         WE-CBF_0805                      0805                     wuerth-elektronik 1
+LED1                                   LED3MM_RED_SMD                   LED_SMD                  LS_ELECTRIC       1
+LED3                                   LED3MM_RED_SMD                   LED_SMD                  LS_ELECTRIC       1
+LED4                                   LED3MM_RED_SMD                   LED_SMD                  LS_ELECTRIC       1
+ON       GREEN                         LEDCHIP-LED0805                  CHIP-LED0805             led               1
+OP1      OPTOCOUPLER5KV_TOSHIBA        OPTOCOUPLER5KV_TOSHIBA           SO6L                     LS_ELECTRIC       1
+PC1      47u                           CPOL-EUD                         PANASONIC_D              rcl               1
+PC2      47u                           CPOL-EUD                         PANASONIC_D              rcl               1
+POWER                                  PINHD-1X6                        1X06                     pinhead           1
+PS2                                    POWER_SUPPLY_DUAL1KV_PS          SIP7                     LS_ELECTRIC       1
+Q1       16MHz                         XTAL/S                           QS                       special           1
+R1       1M                            R-EU_R0603                       R0603-ROUND              SmartPrj          1
+R2       1M                            R-EU_R0603                       R0603-ROUND              SmartPrj          1
+R3       220                           RESISTOR220_0805                 0805_SMD                 LS_ELECTRIC       1
+R4       15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R5       15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R6       15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R7       15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R8       15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R9       15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R10      15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R11      15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R12      15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R13      5.1k                          RESISTOR5.1K_0805                0805_SMD                 LS_ELECTRIC       1
+R14      15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R15      15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R16      33k                           RESISTOR33K_0805                 0805_SMD                 LS_ELECTRIC       1
+R17      15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R18                                    RESISTOR2K_0805                  0805_SMD                 LS_ELECTRIC       1
+R19                                    RESISTOR2K_0805                  0805_SMD                 LS_ELECTRIC       1
+R20      15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R21      15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R22      15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+R23      15                            RESISTOR15_0805                  0805_SMD                 LS_ELECTRIC       1
+RESET    TS42                          TS42                             TS42                     st-mod v1.4       1
+RESET-EN                               SJ                               SJ                       jumper            1
+RN1      10K                           4R-NCAY16                        CAY16                    resistor-dil      1
+RN2      1K                            4R-NCAY16                        CAY16                    resistor-dil      1
+RN3      22R                           4R-NCAY16                        CAY16                    resistor-dil      1
+RN4      1K                            4R-NCAY16                        CAY16                    resistor-dil      1
+RX       YELLOW                        LEDCHIP-LED0805                  CHIP-LED0805             led               1
+T1       FDN340V                       PMOSSOT23                        SOT-23                   zetex             1
+T2                                     TRANSISTOR_NPNMMBT3904L          SOT23                    LS_ELECTRIC       1
+TX       YELLOW                        LEDCHIP-LED0805                  CHIP-LED0805             led               1
+U$1                                    TERMINAL_BLOCK_1212P_PCB_VERT_TB TB_12P                   LS_ELECTRIC       1
+U$2                                    TERMINAL_BLOCK_1212P_PCB_VERT_TB TB_12P                   LS_ELECTRIC       1
+U$5      ADUM3154                      ADUM3154                         SSOP_20                  LS_ELECTRIC       1
+U$7      POWER_SUPPLY_SINGLE5VIN_5VOUT POWER_SUPPLY_SINGLE5VIN_5VOUT    SMT-R1SE-0505            LS_ELECTRIC       1
+U$8                                    DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$9                                    DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$10     1X2_HEADER1X2                 1X2_HEADER1X2                    1X2_HEADER               LS_ELECTRIC       1
+U$11     1X2_HEADER1X2                 1X2_HEADER1X2                    1X2_HEADER               LS_ELECTRIC       1
+U$12                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$13                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$14                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$15                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$16                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$17                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$18     1X2_HEADER1X2                 1X2_HEADER1X2                    1X2_HEADER               LS_ELECTRIC       1
+U$19     1X2_HEADER1X2                 1X2_HEADER1X2                    1X2_HEADER               LS_ELECTRIC       1
+U$20                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$21                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$22     1X2_HEADER1X2                 1X2_HEADER1X2                    1X2_HEADER               LS_ELECTRIC       1
+U$23                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$24                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$25     1X2_HEADER1X2                 1X2_HEADER1X2                    1X2_HEADER               LS_ELECTRIC       1
+U$26                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$27                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$28     1X2_HEADER1X2                 1X2_HEADER1X2                    1X2_HEADER               LS_ELECTRIC       1
+U$29                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$30                                   DIODE_SCHOTTKY_DUAL              SOT323                   LS_ELECTRIC       1
+U$31     1X2_HEADER1X2                 1X2_HEADER1X2                    1X2_HEADER               LS_ELECTRIC       1
+U$32     1X2_HEADER1X2                 1X2_HEADER1X2                    1X2_HEADER               LS_ELECTRIC       1
+U$33     CS                            1X2_HEADER1X2                    1X2_HEADER               LS_ELECTRIC       1
+U1       LMV358D                       LM358D                           SO08                     linear            1
+U2       LP2985-33DBVR                 TPS77033                         SOT23-DBV                texas             1
+U3       ATMEGA8U2-MU                  ATMEGA8U2-MU                     QFN32                    atmel             1
+X1       DC21MMX                       DC21MMX                          DC-21MM                  powersupply       1
+X2                                     PN61729                          PN61729                  SmartPrj          1
+Y2       16MHz                         RESONATORMU                      RESONATOR                SmartPrj          1
+Z1       PGB1010604                    VARISTORCN0603                   CT/CN0603                varistor          1
+Z2       PGB1010604                    VARISTORCN0603                   CT/CN0603                varistor          1
