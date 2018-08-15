@@ -213,6 +213,11 @@
 <text x="13.6" y="50.5" size="1.27" layer="21">INT1</text>
 <text x="13.6" y="55.6" size="1.27" layer="21">DI_4</text>
 <text x="13.4" y="58.4" size="1.27" layer="21">DI_5</text>
+<text x="13.6" y="15.5" size="1.016" layer="21">PWR</text>
+<text x="13" y="17.9" size="1.016" layer="21">PROX</text>
+<text x="12.9" y="26.5" size="1.016" layer="21">P_GND</text>
+<text x="12.7" y="31" size="1.016" layer="21">GND</text>
+<text x="12.8" y="36.2" size="1.016" layer="21">5V+</text>
 </plain>
 <libraries>
 <library name="LS_ELECTRIC">
@@ -1714,31 +1719,6 @@ design rules under a new name.</description>
 <wire x1="18" y1="22.4" x2="16.285" y2="22.4" width="0.254" layer="1"/>
 <wire x1="16.285" y1="22.4" x2="16.245" y2="22.44" width="0.254" layer="1"/>
 </signal>
-<signal name="24GND">
-<contactref element="OP1" pad="3_CAT"/>
-<contactref element="C22" pad="2"/>
-<wire x1="14.3" y1="26.1" x2="14.3" y2="24.63" width="0.254" layer="1"/>
-<wire x1="14.355" y1="24.575" x2="14.3" y2="24.63" width="0.254" layer="1"/>
-<wire x1="18.39" y1="23.86" x2="19.86" y2="23.86" width="0.254" layer="1"/>
-<wire x1="19.86" y1="23.86" x2="19.9" y2="23.9" width="0.254" layer="1"/>
-<via x="19.9" y="23.9" extent="1-16" drill="0.35"/>
-<wire x1="19.9" y1="23.9" x2="18.3" y2="23.9" width="0.254" layer="16"/>
-<wire x1="18.3" y1="23.9" x2="16.1" y2="26.1" width="0.254" layer="16"/>
-<wire x1="16.1" y1="26.1" x2="15.1" y2="26.1" width="0.254" layer="16"/>
-<via x="15.1" y="26.1" extent="1-16" drill="0.35"/>
-<wire x1="15.1" y1="26.1" x2="14.3" y2="26.1" width="0.254" layer="1"/>
-<contactref element="U$40" pad="8"/>
-<wire x1="10.175" y1="25.18" x2="10.78" y2="24.575" width="0.254" layer="1"/>
-<wire x1="10.78" y1="24.575" x2="14.355" y2="24.575" width="0.254" layer="1"/>
-</signal>
-<signal name="24VDC">
-<contactref element="R13" pad="1"/>
-<contactref element="U$40" pad="10"/>
-<wire x1="10.175" y1="15.1" x2="11.1" y2="15.1" width="0.254" layer="1"/>
-<wire x1="11.1" y1="15.1" x2="13.5" y2="17.5" width="0.254" layer="1"/>
-<wire x1="13.5" y1="17.5" x2="13.5" y2="19.465" width="0.254" layer="1"/>
-<wire x1="13.5" y1="19.465" x2="14.345" y2="20.31" width="0.254" layer="1"/>
-</signal>
 <signal name="PROX">
 <contactref element="R16" pad="1"/>
 <wire x1="12.6" y1="22.4" x2="12.5" y2="22.4" width="0.254" layer="1"/>
@@ -1859,6 +1839,31 @@ design rules under a new name.</description>
 <contactref element="U$40" pad="5"/>
 <wire x1="16.3" y1="42.93" x2="13.79" y2="40.42" width="0.254" layer="1"/>
 <wire x1="13.79" y1="40.42" x2="10.175" y2="40.42" width="0.254" layer="1"/>
+</signal>
+<signal name="PWR">
+<contactref element="R13" pad="1"/>
+<contactref element="U$40" pad="10"/>
+<wire x1="10.175" y1="15.1" x2="14.345" y2="19.27" width="0.254" layer="1"/>
+<wire x1="14.345" y1="19.27" x2="14.345" y2="20.31" width="0.254" layer="1"/>
+</signal>
+<signal name="P_GND">
+<contactref element="OP1" pad="3_CAT"/>
+<contactref element="C22" pad="2"/>
+<wire x1="14.3" y1="26.1" x2="14.3" y2="24.63" width="0.254" layer="1"/>
+<wire x1="14.355" y1="24.575" x2="14.3" y2="24.63" width="0.254" layer="1"/>
+<wire x1="18.39" y1="23.86" x2="19.86" y2="23.86" width="0.254" layer="1"/>
+<wire x1="19.86" y1="23.86" x2="19.9" y2="23.9" width="0.254" layer="1"/>
+<via x="19.9" y="23.9" extent="1-16" drill="0.35"/>
+<wire x1="19.9" y1="23.9" x2="18.3" y2="23.9" width="0.254" layer="16"/>
+<wire x1="18.3" y1="23.9" x2="16.1" y2="26.1" width="0.254" layer="16"/>
+<wire x1="16.1" y1="26.1" x2="15.1" y2="26.1" width="0.254" layer="16"/>
+<via x="15.1" y="26.1" extent="1-16" drill="0.35"/>
+<wire x1="15.1" y1="26.1" x2="14.3" y2="26.1" width="0.254" layer="1"/>
+<contactref element="U$40" pad="8"/>
+<wire x1="10.175" y1="25.18" x2="12.02" y2="25.18" width="0.254" layer="1"/>
+<wire x1="12.02" y1="25.18" x2="12.6" y2="24.6" width="0.254" layer="1"/>
+<wire x1="12.6" y1="24.6" x2="14.33" y2="24.6" width="0.254" layer="1"/>
+<wire x1="14.33" y1="24.6" x2="14.355" y2="24.575" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>
